@@ -545,7 +545,11 @@ QGroupBox::title {
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_6">
      <item>
-      <widget class="QTextEdit" name="recvTextEdit"/>
+      <widget class="QTextEdit" name="recvTextEdit">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -713,7 +717,7 @@ QGroupBox::title {
      <x>0</x>
      <y>0</y>
      <width>850</width>
-     <height>25</height>
+     <height>28</height>
     </rect>
    </property>
   </widget>
