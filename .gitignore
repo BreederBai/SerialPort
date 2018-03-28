@@ -1,6 +1,7 @@
 build-SerialPort-Desktop_Qt_5_9_3_GCC_64bit-Debug/*
-*.user
-*.pro.user
+SerialPort/*.user
+SerialPort/*.pro.user
+SerialPort/*.pro.*
 *.bin
 *.d
 *.dfu
