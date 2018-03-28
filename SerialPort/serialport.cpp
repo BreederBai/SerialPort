@@ -80,7 +80,7 @@ int SerialPort::openSerialPort()
 
 void SerialPort::SetSpeed()
 {
-    int i;
+    unsigned int i;
     struct termios Opt;    //定义termios结构
     if(tcgetattr(fds->fd, &Opt) != 0)
     {
